@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html >
+<head>
+<title>CSS Template</title>
+
+<style>
+
+a.four:link,a.four:visited { 
+  background-color:hsl(0, 0%, 47%);
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.four:hover,a.four:active {
+  background-color:hsl(0, 0%, 71%);;
+}
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+
+
+</style>
+</head>
+<body>
+<header>
+  <h2>P4B</h2>
+</header>
+<nav>
+    <table style="width:100%">
+  <tr>
+    <th>HOME</th>
+    <th colspan="2"> SERVIES</th>
+    <td> TEAM</td>
+    <td>TIME</td>
+    <td>ABOUT</td>
+ </tr>
+    
+    </table>
+  </nav>
+  
+  <a  style="margin:230px;"class="four"   href ="BISS4.HTML">follow us</a> 
+
+
+
+<section>
+  
+  
+  <article>
+    <h1>OUR VISION</h1>
+    <BLOCKQUOTE><BLOCKQUOTE>IT is short for Information Technology and is pronounced as separate letters.
+<BR> Information technology is the broad subject concerned with all aspects of managing and processing  <BR>  
+information, especially within a large organization or company. IT is generally not used in reference to <BR> 
+personal or home computing and networking.IT is More than Computers and Networks.While IT is often used  <BR>
+to describe computers and computer networks, it actually  includes all layers of all systems  <BR>
+within an organization — from the physical hardware to the operating systems, applications, databases,  <BR>
+storage, servers and more.Telecommunication technologies, including Internet and business phones are also  <BR>
+ part of an organization's IT infrastructure.</BLOCKQUOTE></BLOCKQUOTE> <BR><BR><BR><BR><BR>
+  </article>
+</section>
+
+<audio controls> <source src="sff.mp3" type="audio/mp3">
+</audio>
+
+    <video controls> <source src="sff.mp4" type="video/mp4">
+    
+    </video> <br> <br>
+    
+    
+     <input type="text " id="username" name="username" autofocus placeholder="username"/> <br><br>
+    <input type="password " id="password" name="password" autofocus placeholder="password"/><br><br>
+
+
+    <input type="email " id="email" name="email" autofocus placeholder="email"/><br><br>
+
+    <input type="number " id="" number="email" autofocus placeholder="number"/><br><br>
+
+    
+
+ <input type="text" id="1country" list="country" placeholder="contry">
+    <datalist id="country">
+      <option value=" sudan">
+          <option value="eagpt">
+              <option value="ksa">
+                  <option value="uea">
+                      <option value="usa">
+                          <option value="uk">
+                              <option value="qatar">
+                                  <option value="moroqo">
+                                      <option value="libia">
+                                          <option value="south sudan ">
+                                              <option value="torkia">
+                                                  <option value="oman">
+</datalist>
+<br><br><br>
+       <lable>male:  </lable><input type ="radio" name="male" value="male"/>
+                                              
+    <lable>female:  </lable> <input  type ="radio" name="female" value="female"/>
+<br><br><br>
+
+
+<progress value="32" max="55"></progress>
+  
+
+
+<details/>
+      <summary>what we</summary>
+      <p>have always and will always adore Tim Curry. Nothing can ever tarnish that. That's why I was skeptical that I would like the new IT movie. I have to say, Bill Skarsg?rd absolutely NAILED Pennywise!! I was blown away. He really captured the character in a brand new and terrifying way. Absolutely stunning performance by the entire cast. I wasn't a huge fan of the original miniseries because I didn't think it was scary enough. Let's just say, my it's one of my favorite movies now, and I am a horror FREAK. I hope the sequel is just as well done. I can't say enough about this movie!! Absolutely loved it!!!!
+      how it costAlthough I was originally disappointed that they didn't really follow the outline of the book, I decided to just set that aside, and look at the film as a stand-alone story. That worked, because it scared the living daylights out of me. I judge how frightening a movie is, by my sleep success the night after I watch it. If I have nightmares or I am too scared to come out from under the covers for a bit, I know it was a great thrill. "IT," was food for nightmares for sure. The kids are all fantastic actors, and I am sure they will all go on to create great cinema. Pennywise took my fear of clowns to a whole new level. I don't know if I will ever be able to eat at McDonald's again, for fear that the statue of Ronald McDonald will somehow morph into Pennywise.
+22 people found this helpful</p>
+      <datalist>
+ 
+<footer>
+ 
+   <table style="width:100%">
+  <tr>
+    <th> About Us</th>                       
+ <th colspan="2">Advertise With Us</th>
+    <td> Blog</td>
+    <td>PERSONALIZE</td>
+    <td>NorthWing Media</td>
+ </tr>
+    
+    </table>
+    <BLOCKQUOTE>P4BLTD &#174</BLOCKQUOTE>
+</footer>
+</body>
+</html>
