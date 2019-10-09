@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html >
+<head>
+<title>CSS Template</title>
+
+<style>
+
+a.four:link,a.four:visited {
+  background-color:#8585ad;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.four:hover,a.four:active {
+  background-color:#666699;
+}
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+
+
+</style>
+</head>
+<body>
+<header>
+  <h2>P4B</h2>
+</header>
+<nav>
+    <table style="width:100%">
+  <tr>
+    <th>HOME</th>
+    <th colspan="2"> SERVIES</th>
+    <td> TEAM</td>
+    <td>TIME</td>
+    <td>ABOUT</td>
+ </tr>
+    
+    </table>
+  </nav>
+  <BR><BR><BR><BR><BR>
+  <a class="four"   href ="BISS4.HTML">follow us</a> 
+
+<BR><BR><BR><BR>
+
+
+
+<section>
+  
+  
+  <article>
+    <h1>OUR VISION</h1>
+    <BLOCKQUOTE><BLOCKQUOTE>IT is short for Information Technology and is pronounced as separate letters.
+<BR> Information technology is the broad subject concerned with all aspects of managing and processing  <BR>  
+information, especially within a large organization or company. IT is generally not used in reference to <BR> 
+personal or home computing and networking.IT is More than Computers and Networks.While IT is often used  <BR>
+to describe computers and computer networks, it actually  includes all layers of all systems  <BR>
+within an organization — from the physical hardware to the operating systems, applications, databases,  <BR>
+storage, servers and more.Telecommunication technologies, including Internet and business phones are also  <BR>
+ part of an organization's IT infrastructure.</BLOCKQUOTE></BLOCKQUOTE> <BR><BR><BR><BR><BR>
+  </article>
+</section>
+
+<footer>
+ 
+   <table style="width:100%">
+  <tr>
+    <th> About Us</th>                       
+ <th colspan="2">Advertise With Us</th>
+    <td> Blog</td>
+    <td>PERSONALIZE</td>
+    <td>NorthWing Media</td>
+ </tr>
+    
+    </table>
+    <BLOCKQUOTE>P4BLTD &#174</BLOCKQUOTE>
+</footer>
+
+</body>
+</html>
