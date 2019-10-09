@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html  >
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CSS Template</title>
+
+<style>
+
+a {
+  color: #FFFFFF;
+}
+
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color:  #102481;
+}
+
+
+
+  /*  ul {
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+ overflow: hidden;
+ background-color:black;
+}
+
+li {
+ float: right;
+}
+
+li a {
+ display: block;
+ color: green;
+ text-align: center;
+ padding: 14px 16px;
+ text-decoration: none;
+   background-color:black;
+}
+
+li a:hover {
+ background-color:red;
+}*/
+<!------------------->
+nav {
+ float: right;
+ width: 30%;
+ height: 330px; /* only for demonstration, should be removed */
+ background: #ccc;
+ padding: 20px;
+}
+
+
+input , select, textarea,text,number {
+ width: 100%;
+ padding: 12px;
+ border: 1px solid #ccc;
+ border-radius: 4px;
+ resize: vertical;
+}
+div {
+ background-color: lightgrey;
+ width: 300px;
+ border:  1px solid  ;
+ padding: 50px;
+ margin: 20px;
+}
+* {
+ box-sizing: border-box;
+}
+
+body {
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+ background-color:  #004080;
+ padding:25px;
+ text-align: center;
+ height: 80 x;
+ width:560 x;
+
+ color: white;
+}
+
+/*   width:100; font-size: 35px; Create two columns/boxes that floats next to each other */
+/*nav {
+ float: right;
+ width: 30%;
+ height: 330px;  only for demonstration, should be removed 
+ background: #ccc;
+ padding: 20px;
+}*/
+
+/* Style the list inside the menu */
+nav ul {
+ list-style-type: none;
+ padding: 0;
+}
+
+article {
+ float: left;
+ padding: 20px;
+ width: 70%;
+ background-color: #ffffff;
+ height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+ content: "";
+ display: table;
+ clear: both;
+}
+
+/* Style the footer */
+footer {
+ background-color: #004080;
+ padding: 10px;
+ text-align: center;
+ color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+ nav, article {
+   width: 100%;
+   height: auto;
+ }
+}
+</style>
+</head>
+<body STYLE="BACKGROUND-COLOR:LINEN;">
+<img src="TH.JFIF"  width="100%" height="130 ">
+
+
+<header>
+ <h2>Tarko</h2>
+</header>
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+
+
+<!------------  <ul   style="list-style-type:none;width:100%;"  >
+ <li><a class="active" href="#about">About
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </a></li> 
+ <li><a href="#contact">Contact</a></li>
+ <li><a href="#news"> News</a></li>
+ <li><a href="#home">Home </a></li>
+</ul>------------------------------->
+
+
+
+
+<!---------------------this is new menu with a div elman-------------------------------------------------------->
+ 
+   
+<!-----<ul   style="list-style-type:none;width:100%;"  >
+ <li><a class="active" href="#about">About </a></li> 
+ <li><a href="#contact">Contact</a></li>
+ <li><a href="#news"> News</a></li>
+ <li><a href="#home">Home </a></li>
+</ul>-------->
+
+
+ <div style="width:180px; ">
+  
+ <artical style=" background:#ccc; ">
+     
+     
+      <details   >
+    <summary>Tokyo</summary>
+    <p  style=" color:#993300 ;">8:30 PM  17 Oct</p>
+    
+  </details>
+     
+      <details   >
+    <summary>Dubai</summary>
+    <p  style=" color:#993300 ;">4:33AM  18 Oct</p>
+    
+  </details>
+  
+  <details   >
+    <summary>Cario</summary>
+    <p  style=" color:#993300 ;">1:22 AM 22 Oct</p>
+    
+  </details>
+  
+  
+   <details   >
+    <summary>ksa  </summary>
+    <p  style=" color: #993300;" >7:25PM  26 Oct</p>
+    
+  </details>
+
+  <details >
+    <summary> london</summary>
+    <p  style=" color: #993300;">8:30AM 28 Oct</p>
+    
+  </details>
+
+
+  <details >
+    <summary>paris</summary>
+    <p  style=" color:#993300 ;">2:15AM 30 Oct</p>
+    
+  </details>
+  
+   
+</artical>
+ 
+</div>
+
+<!------------this is slait ------------------------------->
+ 
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+<div style="margin:auto;">
+
+    <input type="text " id="username" name="username" autofocus placeholder=" name"/> <br><br>
+  
+  <input type="number" id="password" name="password" autofocus   placeholder="age"/><br><br> 
+
+
+   <input type="email " id="email" name="email" autofocus placeholder="email"/><br><br>
+
+   <input type="number " id="  number" name="number" autofocus placeholder="number"/><br><br>
+
+   <select class="form-controls " >
+ <option  selected="selected" value="0"> contry</option>
+ <option value="1"> sudan</option>
+ <option value="2"> ksa</option>
+   <option value="3">uea</option>
+     <option value="">uk</option>
+       <option value="5">france</option>
+         <option value="6">germani</option>
+           <option value="7"> tokio</option>
+       
+</select>
+<br><br>
+<select class="form-controls " >
+ <option  selected="selected" value="0"> section</option>
+ <option value="1"> vip</option>
+ <option value="2">first class</option>
+ <option value="3">  class</option>
+   <option value="4">bissnes</option>
+   </select>
+    <!-- <option value="">uk</option>
+       <option value="5">france</option>
+         <option value="6">germani</option>
+           <option value="7"> tokio</option>
+           
+--><br><br>
+<input type="number" name="" value=" " placeholder="passenger">
+<br><br>
+       <input type="date" name="" value=""  placeholder="date">
+       <br><br>
+ <button style="border-radius: 19px; background:blue;color:#ffffff; margin: 10px 0px 0px 50px;"><p class="round3"><strong>booking now </strong></p>
+ </button>
+
+</div>
+<BR><BR><BR><BR><BR><BR>
+<footer>
+ <table style="width:100%">
+ <ul>
+        <tr>
+          
+          <th  > <a href="PRODUCTS">PRODUCTS<a></th>
+           <th class="center"  > <a href="NEWS"> NEWS<a></th>
+            <th><a href=""> SUPPORT<a> 
+            </tr>
+            
+        <tr>
+          <td><a href="NEWS">AIR  WAY<a></td>
+           <td> <a href="NEWS">TRAIN<a></td>
+            <td><a href="NEWS">24/7<a></td>
+            </tr>
+      <tr>
+          <td><a href="NEWS">SHORT<a></td>
+           <td><a href="NEWS">VISIT<a></td>
+             <td><a href="vsdvsvd"> WHAT NEXT<a></td>
+            </tr>
+  
+  </ul>
+  </table>
+  
+ <p>Tarko  &#174;</p>
+</footer>
+
+</body>
+</html>
